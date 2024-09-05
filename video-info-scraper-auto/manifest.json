@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Multi-URL Video Info Scraper",
+  "version": "1.0",
+  "description": "Scrapes video information from multiple URLs",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*",
+    "*://*.twitter.com/*",
+    "*://*.facebook.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

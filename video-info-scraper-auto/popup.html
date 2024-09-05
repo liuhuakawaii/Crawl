@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Multi-URL Video Info Scraper</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 10px;
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+    }
+
+    button {
+      margin-top: 10px;
+    }
+
+    #resultDiv {
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <h2>Multi-URL Video Info Scraper</h2>
+  <textarea id="urlInput" placeholder="Enter URLs (one per line)"></textarea>
+  <button id="scrapeButton">Scrape All URLs</button>
+  <button id="downloadButton">Download JSON</button>
+  <div id="resultDiv"></div>
+  <script src="popup.js"></script>
+</body>
+
+</html>

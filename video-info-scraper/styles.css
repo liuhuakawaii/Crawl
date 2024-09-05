@@ -1,0 +1,22 @@
+body {
+  width: max-content;
+  padding: 10px;
+  background: rgba(0,0,0,0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  color: #fff;
+}
+h1{
+  width: max-content;
+  color: #fff;
+}
+button {
+  cursor: pointer;
+  color: #000;
+  width: max-content;
+  margin: 10px auto;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  padding: 3px 6px;
+}
