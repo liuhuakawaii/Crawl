@@ -7,11 +7,15 @@
     "activeTab",
     "storage",
     "tabs",
-    "scripting"
+    "scripting",
+    "downloads"
   ],
   "host_permissions": [
     "*://*.youtube.com/*",
     "*://*.twitter.com/*",
+    "*://*.x.com/*",
+    "*://*.bilibili.com/*",
+    "*://*.xiaohongshu.com/*",
     "*://*.facebook.com/*"
   ],
   "action": {

@@ -5,7 +5,8 @@
   "description": "Scrape video information from various platforms",
   "permissions": [
     "activeTab",
-    "storage"
+    "storage",
+    "downloads"
   ],
   "action": {
     "default_popup": "popup.html",
@@ -27,11 +28,13 @@
         "*://*.x.com/*",
         "*://*.bilibili.com/*",
         "*://*.xiaohongshu.com/*",
-        "*://*.facebook.com/*"
+        "*://*.facebook.com/*",
+        "*://*.instagram.com/*"
       ],
       "js": [
         "content.js"
-      ]
+      ],
+      "run_at": "document_idle"
     }
   ],
   "icons": {
